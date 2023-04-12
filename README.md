@@ -12,15 +12,21 @@ when using MatTable & MatPaginator
 ## Run
 1. Checkout project
 2. Install dependencies
-> npm i
+``` 
+npm i
+```
 3. Ensure <project>\node_modules\bin dir is in your path.
 4. Run mock api server 
-> json-server --watch mock-api\db.json
+```
+json-server --watch mock-api\db.json
+```
 5. Run angular
-> ng s
+```
+ng s
+```
 
 ## Screenshot
 
 Look at the network activity in devtools :)
 
-![](.\img\screenshot.gif)
+![](./img/screenshot.gif)
